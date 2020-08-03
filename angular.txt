@@ -1,0 +1,29 @@
+ng g c components/template/header -> Criar components
+
+npm i json-server -> Criar um servidor dummy
+
+npm init -y -> criar package.json com as config padrões
+
+npm i -g @angular/cli -> instalar o angular globalmente
+
+ng new frontend --minimal -> criar o projeto angular no minimo
+
+ng add @angular/material -> adicionar o material designer no angular
+
+_______________________________
+
+diretivas atributo -> altera a aparencia e o comportamento de um elemento , componente ou outra diretiva.
+
+
+diretiva estrutural -> altera o layout adicionando e removendo elementos da DOM
+
+pipes -> quero formatar segundo o padrão que eu quero
+
+services -> São classes que ten como principal objetivo organizar e compartilhar métodos e dados entre componentes.
+
+[id] -> binding de atributo
+<p [id]="propLegal">products-create works!</p>
+
+(click) -> event binding
+<button (click)="fazerAlgo()">Fazer Algo</button>
+
